@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+table.cd-list {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.cd-list th, .cd-list td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+
+.cd-list th {
+    background-color: #f2f2f2;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
